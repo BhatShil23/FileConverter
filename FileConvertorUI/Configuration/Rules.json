@@ -1,0 +1,13 @@
+﻿{
+  "QuestionSeparator": "\n\n",
+  "OptionSeparator": "\n",
+
+  "Option": "<o>",
+  "OptionEnd": "</o>",
+
+  "Image": "<i>",
+  "ImageEnd": "</i>",
+
+  "Text": "<t>"
+}
+ 
