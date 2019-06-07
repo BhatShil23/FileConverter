@@ -5,16 +5,16 @@ namespace Common.Logger
 {
     public class Logger
     {
-        private static StringBuilder logData = new StringBuilder();
+        readonly private static StringBuilder logData = new StringBuilder();
         private static Logger logger = null;
         public string FileName = string.Empty;
 
         private Logger()
         {
-            InitLogingInfo();
+            InitLoggingInfo();
         }
 
-        public void InitLogingInfo()
+        public void InitLoggingInfo()
         {
             AppendLog(DateTime.Now.ToLongDateString());
             AppendLog(DateTime.Now.ToLongTimeString());
